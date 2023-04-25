@@ -64,6 +64,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				  <configuration>
+					<mainClass>com.krishna.demo<mainClass>
+				  </configuration>
 				  <properties>
         				<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 				  </properties>
