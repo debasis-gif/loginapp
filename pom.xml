@@ -60,14 +60,14 @@
 
 	<!-- Taken this part out as @SpringBootApplication annotation is already added -->
 	<build>
-		<sourceDirectory>com/krishna/demo</sourceDirectory> 
+		<!-- <sourceDirectory>com/krishna/demo</sourceDirectory> -->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!-- <configuration>
+				<configuration>
 					  <mainClass>com.krishna.demo.MyWebAppApplication</mainClass>
-				</configuration> -->
+				</configuration> 
 			</plugin>
 		</plugins>
 	</build>
