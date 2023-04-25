@@ -58,14 +58,17 @@
 		</dependency>
 	</dependencies>
 
-	<!-- Taken this part out as @SpringBootApplication annotation is already added
+	<!-- Taken this part out as @SpringBootApplication annotation is already added -->
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				  <properties>
+        				<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+				  </properties>
 			</plugin>
 		</plugins>
 	</build>
-	-->
+
 </project>
