@@ -60,6 +60,7 @@
 
 	<!-- Taken this part out as @SpringBootApplication annotation is already added -->
 	<build>
+		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -67,9 +68,6 @@
 				  <configuration>
 					<mainClass>com.krishna.demo.MyWebAppApplication<mainClass>
 				  </configuration>
-				  <properties>
-        				<spring-boot.repackage.skip>false</spring-boot.repackage.skip>
-				  </properties>
 			</plugin>
 		</plugins>
 	</build>
